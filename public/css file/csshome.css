@@ -1,0 +1,155 @@
+nav,header,footer{
+	display: block;
+}
+
+body{
+	line-height: 1;
+	margin: 0
+
+}
+
+label {
+	font-size: 35px;
+	font-weight: 400;
+}
+
+/*######### nav bar #########*/
+
+nva {
+	width: 100%;
+	margin: 0;
+	height: 40px;
+	overflow: hidden;
+	
+}
+
+nav ul{
+	background-color: #333333;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+
+	
+	
+}
+
+ul.topnav li{
+	list-style: none;
+	float: left;
+	
+}
+
+ul.topnav li.topnav-right{
+	float: right;
+
+}
+
+ul.topnav li a{
+	text-decoration: none;
+	font: Skranji;
+	font-size: 20px;
+	text-align: center;
+	padding: 14px;
+	color: white;
+	letter-spacing: 2px
+
+}
+
+ul.topnav li a:hover {
+ background-color:  #798679 ;
+}
+
+ul.topnav li.dropdownicon{
+	display: none;
+}
+
+
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+ .col-1{width: 8.33%;}
+ .col-2{width: 16.66%;}
+ .col-3{width: 25%;}
+ .col-4{width: 33.33%;}
+ .col-5{width: 41.66%;}
+ .col-6{width: 50%;}
+ .col-7{width: 58.33%;}
+ .col-8{width: 66.66%;}
+ .col-9{width: 75%;}
+ .col-10{width: 83.33%;}
+ .col-11{width: 91.66%;}
+ .col-12{width: 100%;}
+*{
+	box-sizing: border-box;
+}
+ .image{
+ 	width: 100%;
+ 	height: 650px;
+ 	background-color: #333333;
+ 	background-image: url('../images/4.png' );
+ 	background-size: cover;
+ 	background-position: center;
+
+ }
+ h2.action{
+ 	text-align: center;
+ 	font-size:40px ;
+ }
+div.box{
+	text-align: center;
+	margin: 20px;
+	padding: 36px 24px 40px 24px;
+	background-color: #fff;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+	0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+p{
+	font-size: 20px;
+	line-height: 1.2;
+}
+footer.foot{
+	background-color: #333333;
+	color: white;
+	padding-left: 10%;
+ 
+}  
+footer.foot ul{
+	list-style: none;
+	text-align: left;
+	padding-left: 0;
+}
+
+footer.foot ul li {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.content {
+  padding: 16px;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
